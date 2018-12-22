@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency("responders")
   s.add_dependency("actionpack", ">= 5.0", "<= 6.0.0.alpha")
-  s.add_dependency("railties", ">= 5.0", "<<= 6.0.0.alpha")
+  s.add_dependency("railties", ">= 5.0", "<= 6.0.0.alpha")
   s.add_dependency("has_scope",  "~> 0.6")
 end
